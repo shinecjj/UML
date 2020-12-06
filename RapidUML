@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-12-06T09:13:13.194Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.67 Safari/537.36" etag="Neaf61K7vh2XqvXEnBdf" version="13.10.6" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2020-12-06T11:08:42.515Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.67 Safari/537.36" etag="B5yTSl1xRnu6ly01YaW2" version="13.10.6" type="github" pages="8">
   <diagram name="View相关类图" id="kYQSsbim15uRR1IjVfA-">
     <mxGraphModel dx="2840" dy="2274" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1057,7 +1057,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="xxUv4VWQ1OpH6hql-eaI-0" value="&lt;div style=&quot;text-align: center&quot;&gt;&lt;span&gt;&lt;font face=&quot;helvetica neue&quot;&gt;每个IRapidView对应一个RapidObject，还是只有RootView对应一个RapidObject&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;size=14;verticalAlign=top;align=left;spacingTop=-6;strokeColor=#000000;fillColor=#FFE2C2;" parent="t1PZKA3h6vVP2_rzMBDn-1" vertex="1">
+        <mxCell id="xxUv4VWQ1OpH6hql-eaI-0" value="&lt;div style=&quot;text-align: center&quot;&gt;&lt;span&gt;&lt;font face=&quot;helvetica neue&quot;&gt;每个IRapidView对应一个RapidObject，还是只有RootView对应一个RapidObject?&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;size=14;verticalAlign=top;align=left;spacingTop=-6;strokeColor=#000000;fillColor=#FFE2C2;" parent="t1PZKA3h6vVP2_rzMBDn-1" vertex="1">
           <mxGeometry x="947.5" y="280" width="185" height="40" as="geometry" />
         </mxCell>
         <mxCell id="xxUv4VWQ1OpH6hql-eaI-1" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;strokeColor=#000000;fillColor=#FFE2C2;" parent="t1PZKA3h6vVP2_rzMBDn-1" vertex="1">
