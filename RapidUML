@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-12-13T10:49:02.423Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="yKU842imnak7F8Ho5--v" version="13.10.8" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2020-12-13T10:51:53.690Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="0mvb_RssITRdUwAxeHdY" version="13.10.8" type="github" pages="8">
   <diagram name="View相关类图" id="kYQSsbim15uRR1IjVfA-">
     <mxGraphModel dx="3161" dy="774" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1057,8 +1057,8 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="xxUv4VWQ1OpH6hql-eaI-0" value="&lt;div style=&quot;text-align: center&quot;&gt;&lt;span&gt;&lt;font face=&quot;helvetica neue&quot;&gt;每个IRapidView对应一个RapidObject，还是只有RootView对应一个RapidObject?&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;size=14;verticalAlign=top;align=left;spacingTop=-6;strokeColor=#000000;fillColor=#FFE2C2;" parent="t1PZKA3h6vVP2_rzMBDn-1" vertex="1">
-          <mxGeometry x="947.5" y="280" width="185" height="40" as="geometry" />
+        <mxCell id="xxUv4VWQ1OpH6hql-eaI-0" value="&lt;div style=&quot;text-align: center&quot;&gt;&lt;span&gt;&lt;font face=&quot;helvetica neue&quot;&gt;只有RootView对应一个RapidObject&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;size=14;verticalAlign=top;align=left;spacingTop=-6;strokeColor=#000000;fillColor=#FFE2C2;" parent="t1PZKA3h6vVP2_rzMBDn-1" vertex="1">
+          <mxGeometry x="947.5" y="300" width="222.5" height="20" as="geometry" />
         </mxCell>
         <mxCell id="xxUv4VWQ1OpH6hql-eaI-1" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;strokeColor=#000000;fillColor=#FFE2C2;" parent="t1PZKA3h6vVP2_rzMBDn-1" vertex="1">
           <mxGeometry x="931.25" y="730" width="10" height="30" as="geometry" />
@@ -1292,7 +1292,7 @@
           <mxGeometry x="1878" y="920" width="150" height="30" as="geometry" />
         </mxCell>
         <mxCell id="F4doC09OvGXbsrgvT6ZC-37" value="&lt;div style=&quot;text-align: center&quot;&gt;&lt;div&gt;RapidParserObject作用是解析View中的属性：backGround，padding，alpha等。&lt;/div&gt;&lt;div&gt;其子类有ViewParser、LinearLayoutParser等。例如LinearLayoutParser的属性orientation、gravity等。&lt;/div&gt;&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;size=14;verticalAlign=top;align=left;spacingTop=-6;strokeColor=#000000;fillColor=#FFE2C2;" parent="t1PZKA3h6vVP2_rzMBDn-1" vertex="1">
-          <mxGeometry x="1803" y="70" width="250" height="80" as="geometry" />
+          <mxGeometry x="1870" y="190" width="250" height="80" as="geometry" />
         </mxCell>
         <mxCell id="F4doC09OvGXbsrgvT6ZC-38" value="&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; line-height: normal ; font-family: &amp;#34;helvetica neue&amp;#34;&quot;&gt;RapidChooser&lt;/p&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;strokeColor=#000000;fillColor=#FFE2C2;" parent="t1PZKA3h6vVP2_rzMBDn-1" vertex="1">
           <mxGeometry x="1903" y="330" width="90" height="300" as="geometry" />
@@ -1308,7 +1308,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="F4doC09OvGXbsrgvT6ZC-41" value="&lt;span style=&quot;font-family: &amp;#34;helvetica neue&amp;#34; ; background-color: rgb(255 , 255 , 255)&quot;&gt;initAttribute&lt;/span&gt;&amp;nbsp; 这里主要是从Element中取出所有的属性，然后get对应的IFunction，然后分别缓存在ParamsNodeList 和 AttributeNodeList中。以便后面load时run()。" style="shape=note;whiteSpace=wrap;html=1;size=0;verticalAlign=top;align=left;spacingTop=-6;strokeColor=#000000;fillColor=#FFE2C2;" parent="t1PZKA3h6vVP2_rzMBDn-1" vertex="1">
-          <mxGeometry x="2263" y="50" width="290" height="55" as="geometry" />
+          <mxGeometry x="2223" y="190" width="290" height="55" as="geometry" />
         </mxCell>
         <mxCell id="F4doC09OvGXbsrgvT6ZC-42" value="" style="endArrow=open;endFill=1;endSize=12;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" parent="t1PZKA3h6vVP2_rzMBDn-1" source="F4doC09OvGXbsrgvT6ZC-22" target="F4doC09OvGXbsrgvT6ZC-37" edge="1">
           <mxGeometry width="160" relative="1" as="geometry">
