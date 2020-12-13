@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-12-13T08:27:32.331Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="TGtboeCxvwuwTX8c0alG" version="13.10.8" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2020-12-13T10:46:29.980Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="KdW02Tsuu8cXoLaCPt-W" version="13.10.8" type="github" pages="8">
   <diagram name="View相关类图" id="kYQSsbim15uRR1IjVfA-">
     <mxGraphModel dx="3161" dy="774" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -779,7 +779,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="光子初始化流程" id="rW25uO3RBNzVbLTlNmdq">
-    <mxGraphModel dx="2013" dy="2274" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2068" dy="638" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="t1PZKA3h6vVP2_rzMBDn-0" />
         <mxCell id="t1PZKA3h6vVP2_rzMBDn-1" parent="t1PZKA3h6vVP2_rzMBDn-0" />
@@ -846,7 +846,7 @@
           <mxGeometry x="1000" y="350" width="80" height="450" as="geometry" />
         </mxCell>
         <mxCell id="DJFhRfiFN5CPEc4Z3tDP-6" value="&lt;span style=&quot;font-family: &amp;#34;helvetica neue&amp;#34; ; text-align: center&quot;&gt;Preloader.initialize()&lt;/span&gt;&lt;span style=&quot;text-align: center&quot;&gt;这里会遍历所有的RapidConfig中的记录的xml，且初始化出对应的存放在&lt;/span&gt;&lt;span style=&quot;font-family: &amp;#34;helvetica neue&amp;#34;&quot;&gt;RapidObject 存放在&lt;/span&gt;&lt;span style=&quot;font-family: &amp;#34;helvetica neue&amp;#34;&quot;&gt;Preloader.mRapidProloadMap&lt;/span&gt;&lt;span class=&quot;s1&quot; style=&quot;font-stretch: normal ; line-height: normal ; font-family: &amp;#34;.pingfang sc&amp;#34;&quot;&gt;中，以便后面load时直接使用。&lt;/span&gt;" style="shape=note;whiteSpace=wrap;html=1;size=14;verticalAlign=top;align=left;spacingTop=-6;strokeColor=#000000;fillColor=#FFE2C2;" parent="t1PZKA3h6vVP2_rzMBDn-1" vertex="1">
-          <mxGeometry x="320" y="270" width="300" height="50" as="geometry" />
+          <mxGeometry x="320" y="270" width="300" height="60" as="geometry" />
         </mxCell>
         <mxCell id="DJFhRfiFN5CPEc4Z3tDP-7" value="&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; line-height: normal ; font-family: &amp;#34;helvetica neue&amp;#34;&quot;&gt;RapidObjectImpl&lt;/p&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;strokeColor=#000000;fillColor=#FFE2C2;" parent="t1PZKA3h6vVP2_rzMBDn-1" vertex="1">
           <mxGeometry x="1100" y="350" width="100" height="450" as="geometry" />
@@ -874,7 +874,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="bch6QtQOJizzQNKXSPNT-7" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;strokeColor=#000000;fillColor=#FFE2C2;" parent="t1PZKA3h6vVP2_rzMBDn-1" vertex="1">
-          <mxGeometry x="50" y="1120" width="10" height="280" as="geometry" />
+          <mxGeometry x="50" y="1120" width="10" height="310" as="geometry" />
         </mxCell>
         <mxCell id="bch6QtQOJizzQNKXSPNT-14" value="&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; line-height: normal&quot;&gt;&lt;font face=&quot;helvetica neue&quot;&gt;&lt;span style=&quot;font-size: 12px&quot;&gt;getInstance&lt;/span&gt;&lt;/font&gt;&lt;br&gt;&lt;/p&gt;" style="html=1;verticalAlign=bottom;endArrow=block;" parent="t1PZKA3h6vVP2_rzMBDn-1" target="t1PZKA3h6vVP2_rzMBDn-11" edge="1">
           <mxGeometry x="0.7583" width="80" relative="1" as="geometry">
@@ -1429,6 +1429,23 @@
         </mxCell>
         <mxCell id="QlFuLzfFkRg6D8Ff6miM-14" value="&lt;font face=&quot;helvetica neue&quot;&gt;&lt;span style=&quot;background-color: rgb(255 , 255 , 255)&quot;&gt;这里解析AnimaitonChooser中的元素，然后cache起来。&lt;/span&gt;&lt;/font&gt;" style="shape=note;whiteSpace=wrap;html=1;size=0;verticalAlign=top;align=left;spacingTop=-6;strokeColor=#000000;fillColor=#FFE2C2;" parent="t1PZKA3h6vVP2_rzMBDn-1" vertex="1">
           <mxGeometry x="3110" y="650" width="165" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="RomJY9SFfgUQK7quPhqh-0" value="&lt;div&gt;&lt;font face=&quot;helvetica neue&quot;&gt;静态初始化：&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;helvetica neue&quot;&gt;1、luajBridge的初始化&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;helvetica neue&quot;&gt;2、RapidChooser的静态初始化，将RapidView.class缓存起来。&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;helvetica neue&quot;&gt;3、RapidXml预览器初始化。&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;helvetica neue&quot;&gt;4、ViewParser&lt;/font&gt;&lt;span style=&quot;font-family: &amp;#34;helvetica neue&amp;#34;&quot;&gt;的静态初始化，将View属性&lt;/span&gt;&lt;font face=&quot;helvetica neue&quot;&gt;缓存到map。&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;helvetica neue&quot;&gt;5、WSRapidInitializer初始化，包括WSView、Resources、actions缓存起来。&lt;/font&gt;&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;size=14;verticalAlign=top;align=left;spacingTop=-6;strokeColor=#000000;fillColor=#FFE2C2;" vertex="1" parent="t1PZKA3h6vVP2_rzMBDn-1">
+          <mxGeometry x="30" y="830" width="440" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="RomJY9SFfgUQK7quPhqh-1" value="&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; line-height: normal ; font-family: &amp;#34;helvetica neue&amp;#34;&quot;&gt;&lt;span style=&quot;text-align: left&quot;&gt;WSRapidInitializer&lt;/span&gt;&lt;br&gt;&lt;/p&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;strokeColor=#000000;fillColor=#FFE2C2;" vertex="1" parent="t1PZKA3h6vVP2_rzMBDn-1">
+          <mxGeometry x="1132.5" y="1040" width="90" height="400" as="geometry" />
+        </mxCell>
+        <mxCell id="RomJY9SFfgUQK7quPhqh-2" value="&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; font-size: 12px ; line-height: normal ; font-family: &amp;#34;helvetica neue&amp;#34;&quot;&gt;onStaticInit()&lt;/p&gt;" style="html=1;verticalAlign=bottom;endArrow=block;" edge="1" parent="t1PZKA3h6vVP2_rzMBDn-1" target="RomJY9SFfgUQK7quPhqh-1">
+          <mxGeometry x="0.964" width="80" relative="1" as="geometry">
+            <mxPoint x="65.5" y="1420" as="sourcePoint" />
+            <mxPoint x="1079.9999999999995" y="1420" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="91.5" y="1420" />
+              <mxPoint x="125.5" y="1420" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
