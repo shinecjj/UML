@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-12-13T15:10:01.589Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="FVKeUAVWjPRZIFrAKPld" version="14.0.1" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2020-12-13T15:12:02.708Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="UQypqnmCuu92jsYh5Aeb" version="14.0.1" type="github" pages="7">
   <diagram name="View相关类图" id="kYQSsbim15uRR1IjVfA-">
     <mxGraphModel dx="2709" dy="542" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -267,7 +267,7 @@
         </mxCell>
         <mxCell id="jEq8upBPY29r7vTGXBFk-1" value="RapidPool" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="1" vertex="1">
           <mxGeometry x="-743" y="450" width="330" height="150" as="geometry">
-            <mxRectangle x="-280" y="744" width="140" height="26" as="alternateBounds" />
+            <mxRectangle x="-743" y="450" width="140" height="26" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="jEq8upBPY29r7vTGXBFk-2" value="+  mmapMemoryCache : Map&lt;String, byte[]&gt;&#xa;+ mLock : Lock&#xa;+ mInitialized : boolean&#xa;+ nativeInflateViewNameMap : HashMap&lt;String, Boolean&gt;&#xa;+ xmlRootMap : Map&lt;String, WeakReference&lt;Element&gt;&gt;&#xa;+ mPreloader : Preloader" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="jEq8upBPY29r7vTGXBFk-1" vertex="1">
@@ -303,7 +303,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="动作相关类图" id="Ac0quP62qxRCx_5p67aB">
-    <mxGraphModel dx="1882" dy="542" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3841" dy="1549" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="8ydnHlQ0Om-d_B2dcLwC-0" />
         <mxCell id="8ydnHlQ0Om-d_B2dcLwC-1" parent="8ydnHlQ0Om-d_B2dcLwC-0" />
