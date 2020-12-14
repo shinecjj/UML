@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2020-12-14T08:21:57.417Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="RgpmG74ugDUBpBZLDVQs" version="14.0.1" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2020-12-14T08:27:20.386Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="KZWG25lPyGDpzx7WQ9lk" version="14.0.1" type="github" pages="7">
   <diagram name="View相关类图" id="kYQSsbim15uRR1IjVfA-">
-    <mxGraphModel dx="2709" dy="542" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3161" dy="774" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -113,7 +113,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="nL2D2n_rg440GZI7fyq1-13" value="&lt;h1&gt;View属性的解析与加载&lt;/h1&gt;&lt;p&gt;mInitFunNodeList 是在解析View的属性时非常核心的List。初始化时Element的getAttributes()的所有属性先存在这里。load时run对应的IFunction。&lt;/p&gt;" style="text;html=1;strokeColor=#808080;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="-900" y="1480" width="260" height="110" as="geometry" />
+          <mxGeometry x="-1070" y="1710" width="260" height="110" as="geometry" />
         </mxCell>
         <mxCell id="FDd4n9n98Tv_EIWo8ShY-1" value="" style="endArrow=classic;html=1;exitX=0;exitY=0.903;exitDx=0;exitDy=0;entryX=1;entryY=0;entryDx=0;entryDy=0;exitPerimeter=0;" parent="1" source="yUX_Rwc-J2FPRAgol1MG-14" target="nL2D2n_rg440GZI7fyq1-13" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
