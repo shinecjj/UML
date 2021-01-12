@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-01-12T13:20:47.340Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="F5Jkc_Vv7gXBPNPi8f1h" version="14.1.4" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-01-12T13:21:14.195Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="96mir6Bty0kCBlHhYRWN" version="14.1.4" type="github" pages="2">
   <diagram id="38ZjFlmooQbY5nufkzOg" name="脚本解析与字节码生成">
     <mxGraphModel dx="1752" dy="1034" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -132,9 +132,6 @@
             <mxPoint x="300" y="382" as="targetPoint" />
             <mxPoint as="offset" />
           </mxGeometry>
-        </mxCell>
-        <mxCell id="RZw14jD2Z3H0jPtRwOel-1" value="&lt;pre style=&quot;background-color: #2b2b2b ; color: #a9b7c6 ; font-family: &amp;#34;menlo&amp;#34; ; font-size: 10.5pt&quot;&gt;&lt;br&gt;&lt;/pre&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="900" y="750" width="110" height="60" as="geometry" />
         </mxCell>
         <mxCell id="IUp84kgIEjM-418LaxO0-2" value="词法分析核心函数" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="1">
           <mxGeometry x="1530" y="500" width="80" height="26" as="geometry" />
