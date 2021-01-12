@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-01-12T04:08:40.387Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="-WM8z3R6S94lpyzMZAud" version="14.1.4" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-01-12T13:20:47.340Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="F5Jkc_Vv7gXBPNPi8f1h" version="14.1.4" type="github" pages="2">
   <diagram id="38ZjFlmooQbY5nufkzOg" name="脚本解析与字节码生成">
-    <mxGraphModel dx="1054" dy="883" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1752" dy="1034" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -240,7 +240,7 @@
         <mxCell id="IUp84kgIEjM-418LaxO0-31" value="这里有一个问题，lua中的function是&#xa;怎么解析到这里面的？&#xa;&#xa;应该是上面进行愈发语法解析时，&#xa;碰到function关键字时做的。" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="1">
           <mxGeometry x="970" y="930" width="220" height="86" as="geometry" />
         </mxCell>
-        <mxCell id="IUp84kgIEjM-418LaxO0-32" value="" style="endArrow=classic;html=1;" edge="1" parent="1" source="IUp84kgIEjM-418LaxO0-31">
+        <mxCell id="IUp84kgIEjM-418LaxO0-32" value="" style="endArrow=classic;html=1;" edge="1" parent="1" source="IUp84kgIEjM-418LaxO0-31" target="IUp84kgIEjM-418LaxO0-37">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="1390" y="961.0080000000003" as="sourcePoint" />
             <mxPoint x="1640" y="830" as="targetPoint" />
@@ -265,7 +265,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="o_M9GKsjnHPx9vbktk70" name="操作码执行">
-    <mxGraphModel dx="2374" dy="929" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2646" dy="929" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="EoDgF0XeeZxiZTsz4Z0L-0" />
         <mxCell id="EoDgF0XeeZxiZTsz4Z0L-1" parent="EoDgF0XeeZxiZTsz4Z0L-0" />
