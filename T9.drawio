@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-08-09T08:35:45.220Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36" etag="YRv-lNYqBglb6U_RQM_g" version="14.9.5" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2021-08-09T08:39:54.528Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36" etag="wrQgfnNYph4kv1TMFwiE" version="14.9.5" type="github" pages="3">
   <diagram id="ONSBr9gZitLyCauHxjVm" name="编译缓存原理">
     <mxGraphModel dx="1538" dy="834" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -211,6 +211,9 @@
         <mxCell id="apqIFpjq2JTikol0ZTP_-11" value="&lt;span style=&quot;font-size: 14px&quot;&gt;../javac/xx.class&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=#CCE5FF;" vertex="1" parent="apqIFpjq2JTikol0ZTP_-1">
           <mxGeometry x="535" y="140" width="110" height="35" as="geometry" />
         </mxCell>
+        <mxCell id="DFMkG7MAigzUIdptMwnb-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;fillColor=#FFFFFF;" edge="1" parent="apqIFpjq2JTikol0ZTP_-1" source="apqIFpjq2JTikol0ZTP_-12" target="apqIFpjq2JTikol0ZTP_-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="apqIFpjq2JTikol0ZTP_-12" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=#FCFFB3;" vertex="1" parent="apqIFpjq2JTikol0ZTP_-1">
           <mxGeometry x="160" y="-21.25" width="290" height="62.5" as="geometry" />
         </mxCell>
@@ -253,7 +256,7 @@
           <mxGeometry x="470" y="-15" width="40" height="20" as="geometry" />
         </mxCell>
         <mxCell id="apqIFpjq2JTikol0ZTP_-30" value="GenerateDclHelperTask" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=#FCFFB3;" vertex="1" parent="apqIFpjq2JTikol0ZTP_-1">
-          <mxGeometry x="162.5" y="-120" width="290" height="50" as="geometry" />
+          <mxGeometry x="160" y="-120" width="290" height="50" as="geometry" />
         </mxCell>
         <mxCell id="DFMkG7MAigzUIdptMwnb-0" value="" style="shape=flexArrow;endArrow=classic;html=1;strokeColor=#000000;fillColor=#FFFFFF;" edge="1" parent="apqIFpjq2JTikol0ZTP_-1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -281,6 +284,9 @@
         </mxCell>
         <mxCell id="DFMkG7MAigzUIdptMwnb-5" value="output:&amp;nbsp;&amp;nbsp;&lt;br&gt;&lt;span style=&quot;font-family: &amp;#34;helvetica&amp;#34; ; font-size: 14px&quot;&gt;DclComponentHelper.java&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="apqIFpjq2JTikol0ZTP_-1">
           <mxGeometry x="260" y="-230" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="DFMkG7MAigzUIdptMwnb-11" value="dependsOn" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="apqIFpjq2JTikol0ZTP_-1">
+          <mxGeometry x="287.5" y="-60" width="40" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
