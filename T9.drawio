@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-08-11T07:45:58.020Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36" etag="vIyae5ks-MVsmHx0h1j-" version="14.9.5" type="github" pages="12">
+<mxfile host="app.diagrams.net" modified="2021-08-11T08:57:45.741Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36" etag="fyhYX3tVEZqdAS6C2I1R" version="14.9.5" type="github" pages="12">
   <diagram id="ONSBr9gZitLyCauHxjVm" name="编译缓存原理">
     <mxGraphModel dx="1538" dy="834" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -724,7 +724,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="69YP8UQS4TCzUsG-Yzoi" name="modules依赖">
-    <mxGraphModel dx="1061" dy="1705" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1061" dy="1744" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="33iRwHqMpQTO7OlFxg_z-0" />
         <mxCell id="33iRwHqMpQTO7OlFxg_z-1" parent="33iRwHqMpQTO7OlFxg_z-0" />
@@ -959,7 +959,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="kXKu7URuTaK1G20A58YQ" name="Page-9">
-    <mxGraphModel dx="1538" dy="777" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1538" dy="834" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="PX9hgI5bmgpVVqrY8U8p-0" />
         <mxCell id="PX9hgI5bmgpVVqrY8U8p-1" parent="PX9hgI5bmgpVVqrY8U8p-0" />
@@ -993,25 +993,25 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="nx1L70RL7JfTYnsyIx1v-3" value="1、找出有改动的modules" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#E6E6E6;" vertex="1" parent="nx1L70RL7JfTYnsyIx1v-1">
-          <mxGeometry x="300" y="140" width="166" height="50" as="geometry" />
+          <mxGeometry x="300.01" y="190" width="166" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="nx1L70RL7JfTYnsyIx1v-4" value="2、向上遍历找出所有依赖此module的modules" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#E6E6E6;align=center;" vertex="1" parent="nx1L70RL7JfTYnsyIx1v-1">
-          <mxGeometry x="244.75" y="240" width="276.5" height="50" as="geometry" />
+        <mxCell id="nx1L70RL7JfTYnsyIx1v-4" value="2、向上遍历找出所有直接和间接依赖此module的modules" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#E6E6E6;align=center;" vertex="1" parent="nx1L70RL7JfTYnsyIx1v-1">
+          <mxGeometry x="255.38" y="260" width="255.25" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="nx1L70RL7JfTYnsyIx1v-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="nx1L70RL7JfTYnsyIx1v-1">
+        <mxCell id="nx1L70RL7JfTYnsyIx1v-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="nx1L70RL7JfTYnsyIx1v-1" source="nx1L70RL7JfTYnsyIx1v-4">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="382.5" y="290" as="sourcePoint" />
-            <mxPoint x="382.5" y="340" as="targetPoint" />
+            <mxPoint x="383" y="320" as="sourcePoint" />
+            <mxPoint x="382.5" y="350" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="nx1L70RL7JfTYnsyIx1v-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="nx1L70RL7JfTYnsyIx1v-1" source="nx1L70RL7JfTYnsyIx1v-8" target="nx1L70RL7JfTYnsyIx1v-10">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="nx1L70RL7JfTYnsyIx1v-8" value="&lt;span&gt;3、依次执行其mavenPublishingTask&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#E6E6E6;" vertex="1" parent="nx1L70RL7JfTYnsyIx1v-1">
-          <mxGeometry x="273" y="340" width="220" height="50" as="geometry" />
+          <mxGeometry x="273" y="350" width="220" height="50" as="geometry" />
         </mxCell>
         <mxCell id="nx1L70RL7JfTYnsyIx1v-9" value="&lt;span style=&quot;text-align: right&quot;&gt;5、publish成功后将其version记录在version.properties&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#E6E6E6;" vertex="1" parent="nx1L70RL7JfTYnsyIx1v-1">
-          <mxGeometry x="228" y="525" width="310" height="60" as="geometry" />
+          <mxGeometry x="237" y="510" width="292" height="50" as="geometry" />
         </mxCell>
         <mxCell id="nx1L70RL7JfTYnsyIx1v-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="nx1L70RL7JfTYnsyIx1v-1" source="nx1L70RL7JfTYnsyIx1v-10" target="nx1L70RL7JfTYnsyIx1v-9">
           <mxGeometry relative="1" as="geometry" />
@@ -1253,6 +1253,29 @@
       <root>
         <mxCell id="1EDMhGhAlNIQldmXWi0h-0" />
         <mxCell id="1EDMhGhAlNIQldmXWi0h-1" parent="1EDMhGhAlNIQldmXWi0h-0" />
+        <mxCell id="WzHZOTg05H85Id-r356H-0" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1EDMhGhAlNIQldmXWi0h-1" source="WzHZOTg05H85Id-r356H-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="383.0999999999999" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WzHZOTg05H85Id-r356H-1" value="1、获取变化的modules" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#E6E6E6;" vertex="1" parent="1EDMhGhAlNIQldmXWi0h-1">
+          <mxGeometry x="300.01" y="190" width="166" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="WzHZOTg05H85Id-r356H-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1EDMhGhAlNIQldmXWi0h-1" source="WzHZOTg05H85Id-r356H-5" target="WzHZOTg05H85Id-r356H-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WzHZOTg05H85Id-r356H-5" value="&lt;span&gt;2、依次执行其mavenPublishingTask&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#E6E6E6;" vertex="1" parent="1EDMhGhAlNIQldmXWi0h-1">
+          <mxGeometry x="273" y="260" width="220" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="WzHZOTg05H85Id-r356H-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1EDMhGhAlNIQldmXWi0h-1" source="WzHZOTg05H85Id-r356H-6" target="WzHZOTg05H85Id-r356H-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WzHZOTg05H85Id-r356H-6" value="&lt;span style=&quot;text-align: right&quot;&gt;3、publish成功后将其version记录在version.properties&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#E6E6E6;" vertex="1" parent="1EDMhGhAlNIQldmXWi0h-1">
+          <mxGeometry x="237.01" y="350" width="292" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="WzHZOTg05H85Id-r356H-10" value="&lt;span style=&quot;text-align: right&quot;&gt;4、在项目配置阶段为依赖的module替换为3中记录的最新的version&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#CCE5FF;" vertex="1" parent="1EDMhGhAlNIQldmXWi0h-1">
+          <mxGeometry x="237" y="440" width="292" height="50" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
