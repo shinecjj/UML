@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-08-11T08:57:45.741Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36" etag="fyhYX3tVEZqdAS6C2I1R" version="14.9.5" type="github" pages="12">
+<mxfile host="app.diagrams.net" modified="2021-08-11T11:04:43.047Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36" etag="npiFy3VbaIQ4qMyinztj" version="14.9.5" type="github" pages="14">
   <diagram id="ONSBr9gZitLyCauHxjVm" name="编译缓存原理">
     <mxGraphModel dx="1538" dy="834" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -995,7 +995,7 @@
         <mxCell id="nx1L70RL7JfTYnsyIx1v-3" value="1、找出有改动的modules" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#E6E6E6;" vertex="1" parent="nx1L70RL7JfTYnsyIx1v-1">
           <mxGeometry x="300.01" y="190" width="166" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="nx1L70RL7JfTYnsyIx1v-4" value="2、向上遍历找出所有直接和间接依赖此module的modules" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#E6E6E6;align=center;" vertex="1" parent="nx1L70RL7JfTYnsyIx1v-1">
+        <mxCell id="nx1L70RL7JfTYnsyIx1v-4" value="2、向上遍历找出所有直接和间接依赖此module的modules" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#CCE5FF;align=center;" vertex="1" parent="nx1L70RL7JfTYnsyIx1v-1">
           <mxGeometry x="255.38" y="260" width="255.25" height="50" as="geometry" />
         </mxCell>
         <mxCell id="nx1L70RL7JfTYnsyIx1v-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="nx1L70RL7JfTYnsyIx1v-1" source="nx1L70RL7JfTYnsyIx1v-4">
@@ -1016,7 +1016,7 @@
         <mxCell id="nx1L70RL7JfTYnsyIx1v-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="nx1L70RL7JfTYnsyIx1v-1" source="nx1L70RL7JfTYnsyIx1v-10" target="nx1L70RL7JfTYnsyIx1v-9">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="nx1L70RL7JfTYnsyIx1v-10" value="4、执行前将pom.xml中依赖的module的version替换" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#E6E6E6;" vertex="1" parent="nx1L70RL7JfTYnsyIx1v-1">
+        <mxCell id="nx1L70RL7JfTYnsyIx1v-10" value="4、执行前将pom.xml中依赖的module的version替换" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#CCE5FF;" vertex="1" parent="nx1L70RL7JfTYnsyIx1v-1">
           <mxGeometry x="242.75" y="430" width="280.5" height="50" as="geometry" />
         </mxCell>
       </root>
@@ -1275,6 +1275,107 @@
         </mxCell>
         <mxCell id="WzHZOTg05H85Id-r356H-10" value="&lt;span style=&quot;text-align: right&quot;&gt;4、在项目配置阶段为依赖的module替换为3中记录的最新的version&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#CCE5FF;" vertex="1" parent="1EDMhGhAlNIQldmXWi0h-1">
           <mxGeometry x="237" y="440" width="292" height="50" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="32Zr7bnsJW5lim1Zmdy6" name="Page-13">
+    <mxGraphModel dx="1282" dy="695" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="Z9LAn-WIQVIEU5tynYXF-0" />
+        <mxCell id="Z9LAn-WIQVIEU5tynYXF-1" parent="Z9LAn-WIQVIEU5tynYXF-0" />
+        <mxCell id="Z9LAn-WIQVIEU5tynYXF-5" value="AarModePlugin" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;strokeColor=#000000;fillColor=none;" vertex="1" parent="Z9LAn-WIQVIEU5tynYXF-1">
+          <mxGeometry x="350" y="163" width="140" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="Z9LAn-WIQVIEU5tynYXF-6" value="+ apply(Project)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="Z9LAn-WIQVIEU5tynYXF-5">
+          <mxGeometry y="26" width="140" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="Z9LAn-WIQVIEU5tynYXF-9" value="setting.gradle" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;strokeColor=#000000;fillColor=none;" vertex="1" parent="Z9LAn-WIQVIEU5tynYXF-1">
+          <mxGeometry x="350" y="250" width="140" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="Z9LAn-WIQVIEU5tynYXF-10" value="+ include(Project)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="Z9LAn-WIQVIEU5tynYXF-9">
+          <mxGeometry y="26" width="140" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="Z9LAn-WIQVIEU5tynYXF-11" value="local.properties" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;strokeColor=#000000;fillColor=none;" vertex="1" parent="Z9LAn-WIQVIEU5tynYXF-1">
+          <mxGeometry x="120" y="215" width="160" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="Z9LAn-WIQVIEU5tynYXF-12" value="+ localProjects: List&lt;String&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="Z9LAn-WIQVIEU5tynYXF-11">
+          <mxGeometry y="26" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="Z9LAn-WIQVIEU5tynYXF-17" value="Use" style="endArrow=open;endSize=12;dashed=1;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="Z9LAn-WIQVIEU5tynYXF-1" target="Z9LAn-WIQVIEU5tynYXF-6">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="280" y="240.76" as="sourcePoint" />
+            <mxPoint x="350" y="240.76" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Z9LAn-WIQVIEU5tynYXF-18" value="Use" style="endArrow=open;endSize=12;dashed=1;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1.007;exitY=0.059;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="Z9LAn-WIQVIEU5tynYXF-1" source="Z9LAn-WIQVIEU5tynYXF-12" target="Z9LAn-WIQVIEU5tynYXF-10">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="290.0000000000001" y="250.76" as="sourcePoint" />
+            <mxPoint x="359.8600000000001" y="198.2460000000001" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="_XkEGzTqeNmfdDmUziOt" name="Page-14">
+    <mxGraphModel dx="1538" dy="777" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="osptv5_FhqYXJt93ZpkS-0" />
+        <mxCell id="osptv5_FhqYXJt93ZpkS-1" parent="osptv5_FhqYXJt93ZpkS-0" />
+        <mxCell id="osptv5_FhqYXJt93ZpkS-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="osptv5_FhqYXJt93ZpkS-1" source="osptv5_FhqYXJt93ZpkS-2" target="osptv5_FhqYXJt93ZpkS-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="osptv5_FhqYXJt93ZpkS-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="osptv5_FhqYXJt93ZpkS-1" source="osptv5_FhqYXJt93ZpkS-2" target="osptv5_FhqYXJt93ZpkS-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="osptv5_FhqYXJt93ZpkS-12" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="osptv5_FhqYXJt93ZpkS-11">
+          <mxGeometry x="-0.3333" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="osptv5_FhqYXJt93ZpkS-2" value="是否是localProjects" style="rhombus;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=none;" vertex="1" parent="osptv5_FhqYXJt93ZpkS-1">
+          <mxGeometry x="270" y="300" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="osptv5_FhqYXJt93ZpkS-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="osptv5_FhqYXJt93ZpkS-1" source="osptv5_FhqYXJt93ZpkS-3" target="osptv5_FhqYXJt93ZpkS-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="osptv5_FhqYXJt93ZpkS-3" value="AarPlugin.apply()" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=none;" vertex="1" parent="osptv5_FhqYXJt93ZpkS-1">
+          <mxGeometry x="290" y="30" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="osptv5_FhqYXJt93ZpkS-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="osptv5_FhqYXJt93ZpkS-1" source="osptv5_FhqYXJt93ZpkS-4" target="osptv5_FhqYXJt93ZpkS-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="osptv5_FhqYXJt93ZpkS-4" value="遍历Dependency" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=none;" vertex="1" parent="osptv5_FhqYXJt93ZpkS-1">
+          <mxGeometry x="295" y="210" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="osptv5_FhqYXJt93ZpkS-7" value="不做处理" style="whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="osptv5_FhqYXJt93ZpkS-1">
+          <mxGeometry x="480" y="300" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="osptv5_FhqYXJt93ZpkS-9" value="否" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="osptv5_FhqYXJt93ZpkS-1">
+          <mxGeometry x="441" y="320" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="osptv5_FhqYXJt93ZpkS-10" value="version替换为Project" style="whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="osptv5_FhqYXJt93ZpkS-1">
+          <mxGeometry x="296" y="400" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="osptv5_FhqYXJt93ZpkS-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="osptv5_FhqYXJt93ZpkS-1" source="osptv5_FhqYXJt93ZpkS-13" target="osptv5_FhqYXJt93ZpkS-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="osptv5_FhqYXJt93ZpkS-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="osptv5_FhqYXJt93ZpkS-1" source="osptv5_FhqYXJt93ZpkS-13" target="osptv5_FhqYXJt93ZpkS-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="osptv5_FhqYXJt93ZpkS-13" value="isSwitchAarMode" style="rhombus;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=none;" vertex="1" parent="osptv5_FhqYXJt93ZpkS-1">
+          <mxGeometry x="270" y="100" width="171" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="osptv5_FhqYXJt93ZpkS-15" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="osptv5_FhqYXJt93ZpkS-1">
+          <mxGeometry x="366" y="403" as="geometry">
+            <mxPoint x="-10" y="-226" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="osptv5_FhqYXJt93ZpkS-16" value="return" style="whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="osptv5_FhqYXJt93ZpkS-1">
+          <mxGeometry x="490" y="105" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="osptv5_FhqYXJt93ZpkS-17" value="否" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="osptv5_FhqYXJt93ZpkS-1">
+          <mxGeometry x="450" y="110" width="30" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
